@@ -1,11 +1,4 @@
 (function () {
-    window.οnresize = function () {
-        if ($(window).height() < 400) {
-            $('.nav').hide();
-        } else {
-            $('.nav').show();
-        }
-    }
 
     $('[class*="-two"]').css('display', 'none');
 
